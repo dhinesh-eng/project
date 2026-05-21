@@ -44,7 +44,7 @@ export const sequelizeProvider = [
 							server: dbConfig.host,
 
 							options: {
-								encrypt: false,
+								encrypt: true,
 
 								trustServerCertificate: true,
 
