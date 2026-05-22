@@ -14,10 +14,10 @@
 			mssql: {
 				dialect: 'mssql',
 				database: process.env.MSSQL_DATABASE || 'user_db',
-				username: process.env.MSSQL_USERNAME || 'rohan',
-				password: process.env.MSSQL_PASSWORD || 'Rohan@608',
+				username: process.env.MSSQL_USERNAME || 'app_user',
+				password: process.env.MSSQL_PASSWORD || '1810',
 				host: process.env.MSSQL_SERVER || 'G7CR',
-				port: Number(process.env.MSSQL_PORT) || '1433',
+				port: Number(process.env.MSSQL_PORT) || 1433,
 				dialectOptions: {
 					options: {
             server: process.env.MSSQL_SERVER || 'G7CR',
